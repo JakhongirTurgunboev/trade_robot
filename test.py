@@ -1,11 +1,11 @@
 from datetime import datetime
 import time
 
-utc_now = datetime.utcnow()
-seconds_now = (60 * 60 * utc_now.hour) + (60 * utc_now.minute) + utc_now.second
-utc_ny = (13 * 60 * 60) + (60 * 30)
+#utc_now = datetime.utcnow()
+#seconds_now = (60 * 60 * utc_now.hour) + (60 * utc_now.minute) + utc_now.second
+#utc_ny = (13 * 60 * 60) + (60 * 30)
 
-t = utc_ny - seconds_now
+#t = utc_ny - seconds_now
 
 # define the countdown func.
 def countdown(t):
@@ -21,4 +21,4 @@ def countdown(t):
 
 
 # function call
-countdown(int(t))
+#countdown(int(t))
